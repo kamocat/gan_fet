@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "gan_fet")(type "KiCad")(uri "${KIPRJMOD}/gan_fet.kicad_sym")(options "")(descr ""))
+)
