@@ -69,9 +69,20 @@ Solver 2
   Vtu Format = Logical True
 End
 
-Body 2
-  Equation = Integer 2
-  Name = String "Solid2"
+Boundary Condition 1
+  Name = String "Face16"
+  Temperature Load = Real 5.0
 End
 
-Equation 2
+Boundary Condition 2
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face4"
+End
+
+Boundary Condition 3
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face5"
+End
+
