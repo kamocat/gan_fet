@@ -1,0 +1,28 @@
+; FR4
+; no author
+; information about the content of such cards can be found on the wiki:
+; https://www.freecadweb.org/wiki/Material
+; file created by FreeCAD 0.20.29177 (Git)
+
+[General]
+Name = FR4
+Description = PCB
+KindOfMaterial = Composite
+
+[Mechanical]
+Density = 1850.000000000000 kg/m^3
+PoissonRatio = 0.12
+YieldStrength = 345.000000000000 MPa
+YoungsModulus = 21.000000000000 GPa
+
+[Thermal]
+SpecificHeat = 1150.000000000000 J/kg/K
+ThermalConductivity = 0.3430000000000 W/m/K
+ThermalExpansionCoefficient = 15.000000000000 µm/m/K
+
+[Electrical]
+RelativePermittivity = 4.4
+ElectricalConductivity = 0.0000000000001 mS/m
+
+[UserDefined]
+Dielectricstrength = 20 MV/m
