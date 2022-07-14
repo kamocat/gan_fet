@@ -1,0 +1,23 @@
+; Silicon
+; no author
+; information about the content of such cards can be found on the wiki:
+; https://www.freecadweb.org/wiki/Material
+; file created by FreeCAD 0.21.29506 (Git)
+
+[General]
+Name = Silicon
+SourceURL = https://www.matweb.com/search/DataSheet.aspx?MatGUID=7d1b56e9e0c54ac5bb9cd433a0991e27
+
+[Mechanical]
+Density = 2329.000000000000 kg/m^3
+PoissonRatio = 0.28
+ShearModulus = 43.9 GPa
+YoungsModulus = 62.000000000000 GPa
+
+[Thermal]
+SpecificHeat = 713.000000000000 J/kg/K
+ThermalConductivity = 124.000000000000 W/m/K
+ThermalExpansionCoefficient = 2.4900000000000 µm/m/K
+
+[Electrical]
+ElectricalConductivity = .001000000000 mS/m

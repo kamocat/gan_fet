@@ -51,9 +51,9 @@ Body 1
 End
 
 Material 1
-  Density = Real 1850.0
-  Heat Capacity = Real 1150.0
-  Heat Conductivity = Real 0.343
+  Density = Real 2329.0
+  Heat Capacity = Real 713.0
+  Heat Conductivity = Real 124.0
 End
 
 Equation 1
@@ -69,20 +69,253 @@ Solver 2
   Vtu Format = Logical True
 End
 
+Body 2
+  Equation = Integer 2
+  Name = String "Solid2"
+End
+
+Equation 2
+  Active Solvers = Integer 2
+End
+
+Body 3
+  Equation = Integer 3
+  Name = String "Solid3"
+End
+
+Equation 3
+  Active Solvers = Integer 2
+End
+
+Body 4
+  Equation = Integer 4
+  Name = String "Solid4"
+End
+
+Equation 4
+  Active Solvers = Integer 2
+End
+
+Body 5
+  Equation = Integer 5
+  Name = String "Solid5"
+End
+
+Equation 5
+  Active Solvers = Integer 2
+End
+
+Body 6
+  Equation = Integer 6
+  Name = String "Solid6"
+End
+
+Equation 6
+  Active Solvers = Integer 2
+End
+
+Body 7
+  Equation = Integer 7
+  Name = String "Solid7"
+End
+
+Equation 7
+  Active Solvers = Integer 2
+End
+
+Body 8
+  Equation = Integer 8
+  Name = String "Solid8"
+End
+
+Equation 8
+  Active Solvers = Integer 2
+End
+
+Body 9
+  Equation = Integer 9
+  Name = String "Solid9"
+End
+
+Equation 9
+  Active Solvers = Integer 2
+End
+
+Body 10
+  Equation = Integer 10
+  Name = String "Solid10"
+End
+
+Equation 10
+  Active Solvers = Integer 2
+End
+
+Body 11
+  Equation = Integer 11
+  Name = String "Solid11"
+End
+
+Equation 11
+  Active Solvers = Integer 2
+End
+
+Body 12
+  Equation = Integer 12
+  Name = String "Solid12"
+End
+
+Equation 12
+  Active Solvers = Integer 2
+End
+
 Boundary Condition 1
-  Name = String "Face16"
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face5"
   Temperature Load = Real 5.0
 End
 
 Boundary Condition 2
   External Temperature = Real 300.0
   Heat Transfer Coefficient = Real 20.0
-  Name = String "Face4"
+  Name = String "Face1280"
 End
 
 Boundary Condition 3
   External Temperature = Real 300.0
   Heat Transfer Coefficient = Real 20.0
-  Name = String "Face5"
+  Name = String "Face6"
+End
+
+Boundary Condition 4
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face2370"
+End
+
+Boundary Condition 5
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face2310"
+End
+
+Boundary Condition 6
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face12"
+End
+
+Boundary Condition 7
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face4372"
+End
+
+Boundary Condition 8
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face7"
+End
+
+Boundary Condition 9
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face4327"
+End
+
+Boundary Condition 10
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face4266"
+End
+
+Boundary Condition 11
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face4295"
+End
+
+Boundary Condition 12
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face1278"
+End
+
+Boundary Condition 13
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face1274"
+End
+
+Boundary Condition 14
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face1276"
+End
+
+Boundary Condition 15
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face4321"
+End
+
+Boundary Condition 16
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face4314"
+End
+
+Boundary Condition 17
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face4297"
+End
+
+Boundary Condition 18
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face2342"
+End
+
+Boundary Condition 19
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face2365"
+End
+
+Boundary Condition 20
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face2346"
+End
+
+Boundary Condition 21
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face1011"
+End
+
+Boundary Condition 22
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face496"
+End
+
+Boundary Condition 23
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face499"
+End
+
+Boundary Condition 24
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face2816"
+End
+
+Boundary Condition 25
+  External Temperature = Real 300.0
+  Heat Transfer Coefficient = Real 20.0
+  Name = String "Face3105"
 End
 

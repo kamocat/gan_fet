@@ -1,22 +1,110 @@
 !------ Skeleton for body section -----
 Body 1
-  Name = Solid1
+  Name = Face1011
+End
+
+Body 2
+  Name = Face12
+End
+
+Body 3
+  Name = Face1274
+End
+
+Body 4
+  Name = Face1276
+End
+
+Body 5
+  Name = Face1278
+End
+
+Body 6
+  Name = Face1280
+End
+
+Body 7
+  Name = Face2310
+End
+
+Body 8
+  Name = Face2342
+End
+
+Body 9
+  Name = Face2346
+End
+
+Body 10
+  Name = Face2365
+End
+
+Body 11
+  Name = Face2370
+End
+
+Body 12
+  Name = Face2816
+End
+
+Body 13
+  Name = Face3105
+End
+
+Body 14
+  Name = Face4266
+End
+
+Body 15
+  Name = Face4295
+End
+
+Body 16
+  Name = Face4297
+End
+
+Body 17
+  Name = Face4314
+End
+
+Body 18
+  Name = Face4321
+End
+
+Body 19
+  Name = Face4327
+End
+
+Body 20
+  Name = Face4372
+End
+
+Body 21
+  Name = Face496
+End
+
+Body 22
+  Name = Face499
+End
+
+Body 23
+  Name = Face5
+End
+
+Body 24
+  Name = Face6
+End
+
+Body 25
+  Name = Face7
+End
+
+Body 26
+  Name = body26
 End
 
 !------ Skeleton for boundary section -----
 Boundary Condition 1
-  Name = Face16
-End
-
-Boundary Condition 2
-  Name = Face4
-End
-
-Boundary Condition 3
-  Name = Face5
-End
-
-Boundary Condition 4
-  Name = bnry5
+  Name = bnry26
 End
 

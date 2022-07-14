@@ -1,0 +1,26 @@
+; Copper
+; no author
+; information about the content of such cards can be found on the wiki:
+; https://www.freecadweb.org/wiki/Material
+; file created by FreeCAD 0.21.29506 (Git)
+
+[General]
+Name = Copper
+SourceURL = https://www.matweb.com/search/datasheet.aspx?MatGUID=9aebe83845c04c1db5126fada6f76f7e&ckck=1
+
+[Mechanical]
+Density = 8930.000000000000 kg/m^3
+PoissonRatio = 0.343000000000000 
+ShearModulus = 46.000000000000 GPa
+YoungsModulus = 130.000000000000 GPa
+
+[Thermal]
+SpecificHeat = 385.000000000 J/kg/K
+ThermalConductivity = 0395.000000000000 W/m/K
+ThermalExpansionCoefficient = 16.4000000000000 µm/m/K
+
+[Electrical]
+ElectricalConductivity = 58800000 mS/m
+
+[Architectural]
+Color = Copper
