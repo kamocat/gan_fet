@@ -272,7 +272,7 @@
       (net 1 "+5V") (pinfunction "VDD") (pintype "power_in") (tstamp d9771327-057c-4d32-8b9f-d4e855e704e9))
     (pad "8" smd roundrect (at 2.475 -1.905) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pinfunction "IN-") (pintype "input") (tstamp 81743df9-10e8-4b11-97b2-517b57cf1094))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+    (model "${KICAD6_SYMBOL_DIR}/kicad-packages3D/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -416,6 +416,11 @@
       (net 7 "/fetGate") (pinfunction "G") (pintype "input") (solder_mask_margin -0.05) (solder_paste_margin -0.025) (zone_connect 2) (tstamp 2b89fcfa-806b-4905-84c7-43e97624e24f))
     (pad "4" smd roundrect (at 0.675 -0.675 135) (size 0.287 0.287) (property pad_prop_bga) (layers "B.Cu" "B.Paste") (roundrect_rratio 0.3333344948)
       (net 4 "/drain") (pinfunction "D") (pintype "passive") (solder_mask_margin -0.05) (solder_paste_margin -0.025) (zone_connect 2) (tstamp 0c02e23f-a202-4c0e-bec7-e56eb77e4a24))
+    (model "/home/frosty/Downloads/D0353.step"
+      (offset (xyz 5 4.575 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
   )
 
   (gr_circle (center 143.4 94.2) (end 144 94.2) (layer "F.Mask") (width 0.25) (fill none) (tstamp 0156c8e3-f65c-4cd3-b908-2ac2e2ace1a5))
